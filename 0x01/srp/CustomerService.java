@@ -13,8 +13,6 @@ public class CustomerService {
 	public void deleteCustomer() {
 	}
 
-	public void notifyCustomer() {
-	}
 
 	public void sendSMS() {
 
