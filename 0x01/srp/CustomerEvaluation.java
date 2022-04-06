@@ -1,20 +1,22 @@
 
-
 public class CustomerEvaluation {
-	
-	 public void ListCustomer(){
-	    }
 
-	    public void addCustomer(){
-	    }
+	public void ListCustomer() {
+	}
 
-	    public void updateCustomer(){
-	    }
+	public void addCustomer() {
+	}
 
-	    public void deleteCustomer(){
-	    }
+	public void updateCustomer() {
+	}
 
-	    public void notifyCustomer(){
-	    }
+	public void deleteCustomer() {
+	}
+
+	public void notifyCustomer() {
+	}
+
+	public void evaluationCustomer() {
+	}
 
 }
