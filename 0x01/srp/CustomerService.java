@@ -1,28 +1,29 @@
-
 public class CustomerService {
 
-	public void ListCustomer() {
-	}
+    public void ListCustomer(){
+    }
 
-	public void addCustomer() {
-	}
+    public void addCustomer(){
+    }
 
-	public void updateCustomer() {
-	}
+    public void updateCustomer(){
+    }
 
-	public void deleteCustomer() {
-	}
+    public void deleteCustomer(){
+    }
 
+    public void notifyCustomer(){
+    }
 
-	public void sendSMS() {
+    public void sendSMS(){
 
-	}
+    }
 
-	public void sendEmail() {
+    public void sendEmail(){
 
-	}
+    }
 
-	public void evaluationCustomer() {
-	}
+    public void evaluationCustomer(){        
+    }
 
 }
