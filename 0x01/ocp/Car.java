@@ -11,7 +11,7 @@ public class Car extends Vehicle implements IVehicleCar{
 
 	@Override
 	public void configureVehicle(String color, String year, double engine, int seats) {
-		System.out.println("Criando um carro: " + color + " motor: " + engine);
+		System.out.println("Criando um carro: " + color + " " + engine);
 		super.startVehicle();
 
 	}
