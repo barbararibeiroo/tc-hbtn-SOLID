@@ -4,29 +4,31 @@ import java.util.List;
 
 public class Name {
 
-	public Date d;
+	public Date modifiedDate;
 
-	public List<Testcase> find(Name.User user) {
+	public List<Testcase> findAllTestcasesByUser(Name.User user) {
 	};
 
-	public Account[] AccountList;
+
+
+	public List<Account> AccountList;
 
 	public void deleteUser(Name.User user) {
 	};
 
 	public URL url;
 
-	public class TableRepresenter {
+	public class TableRepresent {
 	};
 
-	public void car() {
+	public void saveCar() {
 	};
 
 	public saveUser(){};
 
-	createAccount(){};
+	saveAccount(){};
 
-	generateContract(){};
+	saveContract(){};
 
 	public final int DAYS_IN_YEAR = 360;
 	public final int HOURS_IN_WEEK = 168;
