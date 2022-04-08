@@ -1,8 +1,7 @@
 
 public class Functions {
 
-	// Faça somente 1 coisa
-    //A
+    
     public void saveIncome(Income income){
         inRepo.save(income);
     }
@@ -11,11 +10,11 @@ public class Functions {
     }
 
     //Somente 1 nível de abstração
-    //B
+    //A
     @PostMapping("/user")
     public User saveUser(User user){
-        return userService.userRepository.save(user);
-    }    
+        return userService.save(user);
+    }   
 
     // Arguments
     //A
@@ -49,6 +48,16 @@ public class Functions {
     public Release getRelease(){
         String version = versionService.getVersion();
         return releaseService.getRelease(version);
+    }
+    //B
+    public Environment getEnvironment(){
+        return environmentService.getEnvironment(getVersion());
+    }
+    public Release getRelease(){
+        return releaseService.getRelease(getVersion());
+    }
+    private String getVersion(){ 
+        return versionService.getVersion();
     }
 
 }
