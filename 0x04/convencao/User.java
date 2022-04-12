@@ -5,7 +5,7 @@ public class User {
 
 	String Descricao;
 
-	final static int IDADEMINIMA = 18;
+
 
 	public AllUsers() {return [];}
 
