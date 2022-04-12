@@ -18,7 +18,7 @@ FileHandler fileHandler;
 
 fileHandler = new FileHandler("logs.txt");
 
-Logger.AddHandler(fileHandler);
+Logger.addHandler(fileHandler);
 
 SimpleFormatter simpleFormatter = new SimpleFormatter();
 
