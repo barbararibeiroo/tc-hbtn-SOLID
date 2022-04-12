@@ -1,6 +1,6 @@
 
 
-public class User {
+class User {
 
 int IdUser;
 
