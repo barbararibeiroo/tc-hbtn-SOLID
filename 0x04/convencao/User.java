@@ -1,6 +1,6 @@
+// classe users, representando nossa entidade
 
-
-class User {
+class UsersModels {
 
 int IdUser;
 
